@@ -1,0 +1,51 @@
+HTML = Hyper Text Markup Language
+<!DOCTYPE html> = this tells the HTML file that we are using HTML 5 version
+<html></html> = this tells teh document that we are writing html file
+<head></head> = head is head section of a website where we see title and favicon
+<title></title> = name/title fo the webpage
+
+<body></body> = the main content 
+HEADING = there are 6 heading in HTML H1-H6
+<p></p> = to write paragraphs
+<div></div> = we use divs (division) to create sections
+
+CSS = Cascading Style Sheets
+structure of CSS
+
+h1 {
+    color: red;
+}
+
+how to change the text color?
+color: <colorname>;
+
+how te center text in HTML?
+text-align : center ;
+
+
+how to add CSS to HTML?
+there are 3 ways to add CSS to HTML
+1. Inline CSS
+- adding styles inside HTML tags with style attribute
+    <h1 style="text-align: center;"></h1>
+
+2. Internal CSS
+- adding styles inside the head tag 
+<style>
+    h1 {
+        text-align: center;
+    }
+</style>
+
+how to add border
+#my-city {
+    border: color thickness type;
+}
+#my-city {
+    border: red 5px solid;
+}
+
+types of borders you can apply
+- solid
+- dashed
+- dotted
